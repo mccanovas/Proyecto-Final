@@ -4,8 +4,11 @@
   position: relative; }
 
 .degrade {
-  background: #a4a4a4;
-  background: linear-gradient(90deg, #a4a4a4 0%, #c8c8c8 50%, #a4a4a4 100%); }
+  background: #dadada;
+  background: linear-gradient(90deg, #dadada 0%, #ededed 100%); }
+
+.margenesNav {
+  margin: 10rem 2rem 2rem 2rem; }
 
 .carrousel {
   margin: 10rem 2rem 2rem 2rem; }
@@ -23,6 +26,13 @@
 .precios {
   font-weight: bold;
   font-size: 30px; }
+
+.margenForm {
+  margin: 0rem 2rem 2rem 2rem; }
+
+.flexFormulario {
+  display: flex;
+  flex-direction: row; }
 
 /*Para vista mobile*/
 @media screen and (max-width: 480px) {
