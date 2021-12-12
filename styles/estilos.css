@@ -28,6 +28,12 @@
   font-weight: bold;
   font-size: 30px; }
 
+.mapa {
+  text-align: center; }
+
+.margenesTabla {
+  margin: 10rem; }
+
 .margenForm {
   margin: 0rem 2rem; }
 
@@ -46,7 +52,9 @@
 
 @media screen and (max-width: 975px) {
   .imagenForm {
-    display: none; } }
+    display: none; }
+  .margenesTabla {
+    margin: 10rem 0rem 0rem 0rem; } }
 
 @media screen and (max-width: 480px) {
   .carrousel {
