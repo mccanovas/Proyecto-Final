@@ -29,7 +29,7 @@
   font-size: 30px; }
 
 .margenForm {
-  margin: 0rem 2rem 2rem 2rem; }
+  margin: 0rem 2rem; }
 
 .flexFormulario {
   display: flex;
@@ -39,6 +39,11 @@
   width: auto; }
 
 /*Para vista mobile*/
+@media screen and (max-width: 1024px) {
+  .imagenCard {
+    width: 200px;
+    height: 200px; } }
+
 @media screen and (max-width: 975px) {
   .imagenForm {
     display: none; } }

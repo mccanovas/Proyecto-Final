@@ -1,4 +1,10 @@
 /*Para vista mobile*/
+@media screen and (max-width: 1024px) {
+    .imagenCard {
+        width: 200px;
+        height: 200px;
+     }
+     }
 @media screen and (max-width: 975px) {
     .imagenForm {
         display:none;
@@ -12,4 +18,4 @@
         display: flex;
         flex-direction: column;
     }
-     }
+    }
