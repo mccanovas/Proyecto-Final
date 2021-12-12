@@ -31,6 +31,18 @@
 .mapa {
   text-align: center; }
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+  .map-responsive:iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
 .margenesTabla {
   margin: 10rem; }
 
@@ -61,4 +73,15 @@
     margin: 10rem 0rem 2rem 0rem; }
   .flexFormulario {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0; }
+    .map-responsive:iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; } }
