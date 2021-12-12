@@ -16,6 +16,10 @@
     width: 400px;
     height: 400px;
 }
+.imagenProductos {
+    width: 200px;
+    height: 300px;
+}
 .precios {
     font-weight: bold;
     font-size: 30px;
@@ -39,6 +43,13 @@
 }
 
 }
+.flexCompra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
 .margenesTabla {
     margin: 10rem; 
 }

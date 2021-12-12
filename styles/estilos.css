@@ -4,6 +4,13 @@
   position: relative;
   font-family: 'Public Sans', sans-serif; }
 
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  color: #686666; }
+
 .degrade {
   background: #dadada;
   background: linear-gradient(90deg, #dadada 0%, #ededed 100%); }
@@ -24,6 +31,10 @@
   width: 400px;
   height: 400px; }
 
+.imagenProductos {
+  width: 200px;
+  height: 300px; }
+
 .precios {
   font-weight: bold;
   font-size: 30px; }
@@ -42,6 +53,12 @@
     height: 100%;
     width: 100%;
     position: absolute; }
+
+.flexCompra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 .margenesTabla {
   margin: 10rem; }
