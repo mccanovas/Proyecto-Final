@@ -1,6 +1,15 @@
 /*Para vista mobile*/
+@media screen and (max-width: 975px) {
+    .imagenForm {
+        display:none;
+     }
+     }
 @media screen and (max-width: 480px) {
     .carrousel {
         margin: 10rem 0rem 2rem 0rem;
+    }
+    .flexFormulario {
+        display: flex;
+        flex-direction: column;
     }
      }
