@@ -99,6 +99,12 @@ a:hover {
   .flexFormulario {
     display: flex;
     flex-direction: column; }
+  .card {
+    width: 280px;
+    height: 550px;
+    font-size: 12px;
+    padding: 0px;
+    padding: 0%; }
   .map-responsive {
     overflow: hidden;
     padding-bottom: 40%;
