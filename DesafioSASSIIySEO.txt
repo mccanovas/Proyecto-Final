@@ -1,0 +1,11 @@
+¡Hola!
+
+Para este desafío usé @mixin y @extend en el SCSS de mi body.
+
+Además, para el SEO, realicé lo siguiente:
+
+Comprimí el tamaño de mis imágenes y algunas las convertí a webp.
+Borré imágenes que no utilizaba.
+Agregué keywords.
+Agregué títulos únicos a cada página.
+Agregué etiquetas de descripción con frases únicas para cada página.

@@ -15,17 +15,24 @@ a:hover {
   background: #dadada;
   background: linear-gradient(90deg, #dadada 0%, #ededed 100%); }
 
+.titulosBody, .fontTabla {
+  text-align: center; }
+
+.fontTabla {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small; }
+
 .margenesNav {
   margin: 10rem 2rem 2rem 2rem; }
 
 .carrousel {
   margin: 10rem 2rem 2rem 2rem; }
 
-.titulosBody {
-  text-align: center; }
-
 .margenCard {
   margin: 2rem 2rem; }
+
+.margenesTabla {
+  margin: 10rem; }
 
 .imagenCard {
   width: 400px;
@@ -34,6 +41,10 @@ a:hover {
 .imagenProductos {
   width: 200px;
   height: 300px; }
+
+.imagenNosotros {
+  width: 1200px;
+  height: 700px; }
 
 .precios {
   font-weight: bold;
@@ -47,7 +58,7 @@ a:hover {
   padding-bottom: 56.25%;
   position: relative;
   height: 0; }
-  .map-responsive:iframe {
+  .map-responsiveiframe {
     left: 0;
     top: 0;
     height: 100%;
@@ -59,9 +70,6 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center; }
-
-.margenesTabla {
-  margin: 10rem; }
 
 .margenForm {
   margin: 0rem 2rem; }
@@ -96,7 +104,7 @@ a:hover {
     padding-bottom: 40%;
     position: relative;
     height: 0; }
-    .map-responsive:iframe {
+    .map-responsiveiframe {
       left: 0;
       top: 0;
       height: 100%;

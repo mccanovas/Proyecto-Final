@@ -1,24 +1,44 @@
-.margenesNav {
-    margin: 10rem 2rem 2rem 2rem; 
+// Extend
+
+.titulosBody {
+    text-align: center;
 }
+
+.fontTabla {
+    @extend .titulosBody;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: small;
+}
+
+//Mixin
+@mixin margenNav ($margenes) {
+    margin: $margenes;
+}
+.margenesNav {
+    @include margenNav (10rem 2rem 2rem 2rem)
+    } 
 .carrousel {
-    margin: 10rem 2rem 2rem 2rem;
-    }
-  
-    .titulosBody {
-        text-align: center;
-    }
-     
-    .margenCard {
-        margin: 2rem 2rem;
+    @include margenNav (10rem 2rem 2rem 2rem)
+    }    
+.margenCard {
+    @include margenNav(2rem 2rem)
         }
+.margenesTabla {
+    @include margenNav(10rem)
+        }
+
+@mixin imagenesCard ($alto,$ancho) {
+    width: $ancho;
+    height: $alto;
+}
 .imagenCard {
-    width: 400px;
-    height: 400px;
+    @include imagenesCard(400px,400px)
 }
 .imagenProductos {
-    width: 200px;
-    height: 300px;
+    @include imagenesCard(300px, 200px)
+}
+.imagenNosotros {
+    @include imagenesCard(700px, 1200px)
 }
 .precios {
     font-weight: bold;
@@ -34,7 +54,7 @@
     position:relative;
     height:0;
 
-   &:iframe {
+   &iframe {
     left:0;
     top:0;
     height:100%;
@@ -50,6 +70,3 @@
     justify-content: center;
   }
 
-.margenesTabla {
-    margin: 10rem; 
-}
