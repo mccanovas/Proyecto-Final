@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mccanovas/CC-Cosmetics.git"
+    "url": "git+https://github.com/mccanovas/Proyecto-Final.git"
   },
   "author": "Camila Canovas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mccanovas/CC-Cosmetics/issues"
+    "url": "https://github.com/mccanovas/Proyecto-Final/issues"
   },
-  "homepage": "https://github.com/mccanovas/CC-Cosmetics#readme",
+  "homepage": "https://github.com/mccanovas/Proyecto-Final#readme",
   "devDependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
