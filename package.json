@@ -1,7 +1,7 @@
 {
   "name": "root",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es la página oficial de CC Cosmetics Argentina.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mccanovas/Proyecto-final.git"
+    "url": "git+https://github.com/mccanovas/CC-Cosmetics.git"
   },
   "author": "Camila Canovas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mccanovas/Proyecto-final/issues"
+    "url": "https://github.com/mccanovas/CC-Cosmetics/issues"
   },
-  "homepage": "https://github.com/mccanovas/Proyecto-final#readme",
+  "homepage": "https://github.com/mccanovas/CC-Cosmetics#readme",
   "devDependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
