@@ -32,7 +32,7 @@ font-size: small;
     @include margenNav(2rem 2rem)
         }
 .margenesTabla {
-    @include margenNav(10rem)
+    @include margenNav(3rem)
         }
 
 @mixin imagenesCard ($alto,$ancho) {
@@ -53,24 +53,15 @@ font-size: small;
     font-size: 30px;
 }
 /*Mapa sucursales*/
-.mapa {
-    text-align: center;
+
+.mapa.map-responsive {
+    padding: 0rem;
+
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-
-   &iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
+.sucursalesMapa {
+    display: flex;
+    justify-content: center;
 }
 .flexCompra {
     display: flex;

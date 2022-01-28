@@ -10,23 +10,44 @@
         display:none;
      }
      .margenesTabla {
-        margin: 10rem 0rem 0rem 0rem; 
+        margin: 2rem; 
+    }
+    .carrousel {
+        margin: 2rem 0rem 2rem 0rem;
     }
      }
 @media screen and (max-width: 480px) {
-    .carrousel {
-        margin: 10rem 0rem 2rem 0rem;
-    }
+
+.navbar-brand {
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenCard {
+display: flex;
+justify-content: center;
+}
+.headerMQ {
+    display: flex;
+    justify-content: center;
+}
+   
     .flexFormulario {
         display: flex;
         flex-direction: column;
     }
-    .card {
+    .cardNosotros {
         width: 280px;
         height: 550px;
         font-size: 12px;
         padding: 0px;
-        padding: 0%;
+        display: flex;
+        justify-content: center;
+    } 
+    .fontTabla {
+        font-size: 12px;
     }
     .map-responsive{
         overflow:hidden;

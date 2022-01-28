@@ -42,7 +42,7 @@ a:hover {
   margin: 2rem 2rem; }
 
 .margenesTabla {
-  margin: 10rem; }
+  margin: 3rem; }
 
 .imagenCard {
   width: 400px;
@@ -61,20 +61,12 @@ a:hover {
   font-size: 30px; }
 
 /*Mapa sucursales*/
-.mapa {
-  text-align: center; }
+.mapa.map-responsive {
+  padding: 0rem; }
 
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0; }
-  .map-responsiveiframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute; }
+.sucursalesMapa {
+  display: flex;
+  justify-content: center; }
 
 .flexCompra {
   display: flex;
@@ -103,20 +95,34 @@ a:hover {
   .imagenForm {
     display: none; }
   .margenesTabla {
-    margin: 10rem 0rem 0rem 0rem; } }
+    margin: 2rem; }
+  .carrousel {
+    margin: 2rem 0rem 2rem 0rem; } }
 
 @media screen and (max-width: 480px) {
-  .carrousel {
-    margin: 10rem 0rem 2rem 0rem; }
+  .navbar-brand {
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center; }
+  .imagenCard {
+    display: flex;
+    justify-content: center; }
+  .headerMQ {
+    display: flex;
+    justify-content: center; }
   .flexFormulario {
     display: flex;
     flex-direction: column; }
-  .card {
+  .cardNosotros {
     width: 280px;
     height: 550px;
     font-size: 12px;
     padding: 0px;
-    padding: 0%; }
+    display: flex;
+    justify-content: center; }
+  .fontTabla {
+    font-size: 12px; }
   .map-responsive {
     overflow: hidden;
     padding-bottom: 40%;
