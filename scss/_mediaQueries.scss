@@ -12,7 +12,12 @@
         display: flex;
         justify-content: center;
     }
+    .responsiveTarjetas {
+        display: flex;
+   flex-wrap: nowrap;
+    }
      }
+
 @media screen and (max-width: 975px) {
     .imagenForm {
         display:none;
@@ -30,6 +35,11 @@
         padding: 0px;
         display: flex;
         justify-content: center;
+    }
+    .flexTarjetas {
+        display: flex;
+    
+        align-items: flex-start;
     }
      }
      @media screen and (max-width: 760px) {

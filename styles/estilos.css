@@ -49,8 +49,8 @@ a:hover {
   height: 400px; }
 
 .imagenProductos {
-  width: 200px;
-  height: 300px; }
+  width: 100px;
+  height: 200px; }
 
 .imagenNosotros {
   width: 1200px;
@@ -61,9 +61,6 @@ a:hover {
   font-size: 30px; }
 
 /*Mapa sucursales*/
-.mapa.map-responsive {
-  padding: 0rem; }
-
 .sucursalesMapa {
   display: flex;
   justify-content: center; }
@@ -96,7 +93,10 @@ a:hover {
     font-size: 15px;
     padding: 0px;
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .responsiveTarjetas {
+    display: flex;
+    flex-wrap: nowrap; } }
 
 @media screen and (max-width: 975px) {
   .imagenForm {
@@ -111,7 +111,10 @@ a:hover {
     font-size: 12px;
     padding: 0px;
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .flexTarjetas {
+    display: flex;
+    align-items: flex-start; } }
 
 @media screen and (max-width: 760px) {
   .cardNosotros {

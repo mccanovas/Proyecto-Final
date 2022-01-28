@@ -43,7 +43,7 @@ font-size: small;
     @include imagenesCard(400px,400px)
 }
 .imagenProductos {
-    @include imagenesCard(300px, 200px)
+    @include imagenesCard(200px, 100px)
 }
 .imagenNosotros {
     @include imagenesCard(700px, 1200px)
@@ -53,11 +53,6 @@ font-size: small;
     font-size: 30px;
 }
 /*Mapa sucursales*/
-
-.mapa.map-responsive {
-    padding: 0rem;
-
-}
 
 .sucursalesMapa {
     display: flex;
