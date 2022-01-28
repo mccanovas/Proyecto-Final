@@ -9,16 +9,24 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: small;
 }
-
+/*Menu Nav*/
+.imagenLogo {
+    width: 55%;
+    height: 15%;
+}
+.menuNav {
+    text-align: right;
+}
 //Mixin
 @mixin margenNav ($margenes) {
     margin: $margenes;
 }
 .margenesNav {
-    @include margenNav (10rem 2rem 2rem 2rem)
+    @include margenNav (2rem 2rem 2rem 2rem)
     } 
+    /*Carrousel*/
 .carrousel {
-    @include margenNav (10rem 2rem 2rem 2rem)
+    @include margenNav (2rem 10rem 5rem 10rem)
     }    
 .margenCard {
     @include margenNav(2rem 2rem)
@@ -44,6 +52,7 @@ font-size: small;
     font-weight: bold;
     font-size: 30px;
 }
+/*Mapa sucursales*/
 .mapa {
     text-align: center;
 }
