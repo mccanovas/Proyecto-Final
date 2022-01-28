@@ -4,6 +4,14 @@
         width: 200px;
         height: 200px;
      }
+     .cardNosotros {
+        width: 880px;
+        height: 650px;
+        font-size: 15px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
      }
 @media screen and (max-width: 975px) {
     .imagenForm {
@@ -15,7 +23,35 @@
     .carrousel {
         margin: 2rem 0rem 2rem 0rem;
     }
+    .cardNosotros {
+        width: 680px;
+        height: 550px;
+        font-size: 12px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
      }
+     @media screen and (max-width: 760px) {
+        .cardNosotros {
+            width: 580px;
+            height: 530px;
+            font-size: 12px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+        }    
+         }
+         @media screen and (max-width: 650px) {
+            .cardNosotros {
+                width: 400px;
+                height: 530px;
+                font-size: 12px;
+                padding: 0px;
+                display: flex;
+                justify-content: center;
+            }    
+             }
 @media screen and (max-width: 480px) {
 
 .navbar-brand {
