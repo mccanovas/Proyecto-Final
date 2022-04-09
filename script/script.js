@@ -34,7 +34,7 @@ for (const labial of labiales) {
 
 //Funcion para calcular el precio final de la compra
 function calcularPrecio(precioProducto, cantidadProducto, costoEnvio) {
-    return ((precioProducto * 1.21) * cantidadProducto) + costoEnvio;
+    return (precioProducto * cantidadProducto) + costoEnvio;
 }
 
 //Solicito al usuario el ID del producto
