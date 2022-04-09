@@ -5,9 +5,12 @@ class Producto {
         this.precio = precio;
         this.stock = stock;
     }
+    vender(cantidad) {
+        this.stock = this.stock - cantidad;
+    }
 }
 
-//Inicializo arrays para las categorias de los productos
+//Iniciando arrays para las categorias de los productos
 const labiales = [];
 const sombras = [];
 
@@ -29,18 +32,34 @@ for (const labial of labiales) {
     alert("ID (" + labial.id + ") - " + labial.nombre);
 }
 
+//Funcion para calcular el precio final de la compra
+function calcularPrecio(precioProducto, cantidadProducto, costoEnvio) {
+    return ((precioProducto * 1.21) * cantidadProducto) + costoEnvio;
+}
 
 //Solicito al usuario el ID del producto
 let productoSeleccionado = parseInt(prompt("Ingrese el ID del producto para añadirlo al carrito:"));
 const sombraAñadida = sombras.find(sombra => sombra.id === productoSeleccionado);
 const labialAñadido = labiales.find(labial => labial.id == productoSeleccionado);
 
+//Solicito al usuario la cantidad de la prenda
+let cantidad = parseInt(prompt("Ingrese la cantidad de unidades que quiere comprar del producto seleccionado:"));
+
+//Costo de envio promedio
+const envio = 600;
+
+//Salidas de consola indicando el precio final de la compra
 if (productoSeleccionado <= 0) {
-    alert("Ingresa un ID válido");
-} else if (productoSeleccionado <=2) {
-    alert("Seleccionaste " +  sombraAñadida.nombre + "\nToca aceptar para agregarlo a tu carrito"); 
-} else if (productoSeleccionado <=4) {
-    alert("Seleccionaste " + labialAñadido.nombre + "\nToca aceptar para agregarlo a tu carrito");
-} else {
-    alert("Ingresa un ID válido");
+    alert("Ingresa un ID valido");
+} else if (productoSeleccionado <= 2) {
+    alert("El precio final de tu compra es: $" + calcularPrecio(sombraAñadida.precio, cantidad, envio));
+    alert("¡Que lo disfrutes!")
+    sombraAñadida.vender(cantidad);
+} else if (productoSeleccionado <= 4) {
+    alert("El precio final de tu compra es: $" + calcularPrecio(labialAñadido.precio, cantidad, envio));
+    alert("¡Que lo disfrutes!")
+    labialAñadido.vender(cantidad);
+}
+ else {
+    alert("Ingresa un ID valido");
 }
